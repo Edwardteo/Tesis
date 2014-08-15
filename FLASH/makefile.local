@@ -5,6 +5,6 @@
 ################################################################################
 
 export GNU_Make_Install_DirEnv=$(CWInstallLocationEnv)/gnu/bin
-export ProjDirPath=C:/Users/LEONEL 1/workspace/Wiznet5500_KL25Z
+export ProjDirPath=C:/Users/Eduardo/workspace/KL25z/Tesis
 export CWInstallLocationEnv=C:/Freescale/CW MCU v10.6
 export ARMSourceryDirEnv=$(CWInstallLocationEnv)/Cross_Tools/arm-none-eabi-gcc-4_7_3/bin

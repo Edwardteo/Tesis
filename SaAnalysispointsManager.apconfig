@@ -1,6 +1,6 @@
 <Analysispoints>
 	<Name>AnalysispointsManager</Name>
-	<ProjectPath>C:/Users/Eduardo/workspace/KL25z/Wiznet5500_KL25Z/SaAnalysispointsManager.apconfig</ProjectPath>
+	<ProjectPath>C:/Users/Eduardo/workspace/KL25z/Tesis/SaAnalysispointsManager.apconfig</ProjectPath>
 	<MaxNumberOfCores>1</MaxNumberOfCores>
 	<Comments>Analysispoints Manager</Comments>
 	<IgnoreAll>false</IgnoreAll>

@@ -4,12 +4,12 @@
 -g3
 -gdwarf-2
 -gstrict-dwarf
--I"C:/Users/Eduardo/workspace/KL25z/Tesis/Project_Headers"
--I"C:/Users/Eduardo/workspace/KL25z/Tesis/Project_Settings/Startup_Code"
+-I"C:/Users/LEONEL 1/workspace/Wiznet5500_KL25Z/Project_Headers"
+-I"C:/Users/LEONEL 1/workspace/Wiznet5500_KL25Z/Project_Settings/Startup_Code"
 -I"C:/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include"
 -I"C:/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/EWL_Runtime/include"
--I"C:/Users/Eduardo/workspace/KL25z/Tesis/Generated_Code"
--I"C:/Users/Eduardo/workspace/KL25z/Tesis/Sources"
+-I"C:/Users/LEONEL 1/workspace/Wiznet5500_KL25Z/Generated_Code"
+-I"C:/Users/LEONEL 1/workspace/Wiznet5500_KL25Z/Sources"
 -I"C:/Freescale/CW MCU v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc"
 -I"C:/Freescale/CW MCU v10.6/MCU/ProcessorExpert/lib/Kinetis/iofiles"
 -O0

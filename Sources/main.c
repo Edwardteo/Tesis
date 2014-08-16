@@ -513,7 +513,7 @@ void WIZ_receive(uint8 buf[])
 	  {printf("%c",datosr[i]);}
 }
 
-void SckClose()
+void CloseSck()
 {
 	//while (WIZ_ReadByte(Sn_SR,sck) != SOCK_CLOSE_WAIT);
 	WIZ_Command(sck,DISCON);
@@ -566,9 +566,6 @@ int main(void)
 
   //Inicializa servidor
   init(IP_Addr, IP_Subnet, IP_Gateway);
-  /*
-  
-
   
   FindSck();
   if(sck>0)
@@ -581,23 +578,32 @@ int main(void)
 	  if(WIZ_ReadByte(Sn_RX_RSR,sck)) //se recibieron datos?
 	  {
 		  Receive();//recibe
-		  CheckData();//Analiza la informacion recibida
+	//	  CheckData();//Analiza la informacion recibida
 	  }
 	  
 	  // no estoy seguro de como analizar esta parte de hay envio o no
 	  
-	  if (send)
-	  {
-		  Send();
-	  }
+	  //if (send)
+	  //{
+		  //Send();
+	  //}
+	  
+	  WIZ_Send(a,sizeof(a));
+	  WIZ_Send(b,sizeof(b));
+	  WIZ_Send(c,sizeof(c));
+	  WIZ_Send(d,sizeof(d));
+	  WIZ_Send(e,sizeof(e));
+	  WIZ_Send(f,sizeof(f));
+	  WIZ_Send(g,sizeof(g));
+	  WIZ_Send(h,sizeof(h));
 	  
 	  if (WIZ_ReadByte(Sn_SR,sck) == SOCK_CLOSE_WAIT)
 	  {
 		  CloseSck();
-	  }
-
-  }*/
-  
+	  }  
+	  CloseSck();
+  }
+  /*
   
   printf("%s  \n\r","INICIO");
   for(;;)
@@ -617,7 +623,7 @@ int main(void)
 	  WIZ_Send(h,sizeof(h));
 	  
 	  SckClose();
-  }
+  }*/
 
   
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
